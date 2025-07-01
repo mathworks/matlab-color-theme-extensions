@@ -35,10 +35,10 @@ The fields in the JSON file are inspired from MATLAB's Settings panel.
 MATLAB R2025a or newer
 
 ## License
-See [LICENSE.txt](./LICENSE.txt)
+See [LICENSE](./LICENSE.txt)
 
 ## Contributing
-If you have suggestions for color schemes or improvements, please [create an issue or pull request](https://github.com/mathworks/matlab-theme-extensions)
+If you have suggestions for color schemes or improvements, please [create an issue or pull request](https://github.com/mathworks/matlab-theme-extensions). See [CONTRIBUTING](./CONTRIBUTING.md)
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
