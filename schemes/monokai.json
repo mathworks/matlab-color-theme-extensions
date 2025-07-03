@@ -3,7 +3,7 @@
   "TextColor": "#F8F8F0",
   "BackgroundColor": "#272822",
   "HighlightCurrentLine": true,
-  "HighlightCurrentLineColor": "#666666",
+  "HighlightCurrentLineColor": "#3E3D32",
   "ShowRightHandTextLimitLine": true,
   "RightHandTextLimitLineColor": "#CCCCCC",
   "MATLABSyntaxHighlightingColors": {
