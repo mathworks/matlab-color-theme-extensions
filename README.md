@@ -1,6 +1,6 @@
 # MATLAB Theme Extensions
 
-[![View MATLAB Theme Extensions on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/matlab-theme-extensions) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/matlab-theme-extensions) 
+[![View MATLAB Theme Extensions on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/181402-matlab-theme-extensions) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/matlab-theme-extensions) 
 
 **MATLAB Theme Extensions** enhance MATLAB’s built-in themes by enabling users to create, import, and share custom color themes. This extension allows you to personalize your MATLAB environment and easily switch between different color schemes.
 
