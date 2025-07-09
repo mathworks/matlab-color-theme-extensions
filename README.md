@@ -2,7 +2,16 @@
 
 [![View MATLAB Theme Extensions on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/181402-matlab-theme-extensions) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/matlab-theme-extensions) 
 
-**MATLAB Theme Extensions** enhance MATLAB’s built-in themes by enabling users to create, import, and share custom color themes. This extension allows you to personalize your MATLAB environment and easily switch between different color schemes.
+**MATLAB Theme Extensions** enhance MATLAB’s built-in themes by enabling users to create, import, and share custom color schemes. This extension allows you to personalize your MATLAB environment and easily switch between different color schemes.
+
+The project works by customizing colors on top of the existing MATLAB Themes (either Light or Dark).
+
+## Get Started
+
+1. Download the project from MATLAB File Exchange or GitHub.
+2. Extract the zipped file to any directory on your system.
+3. Open MATLAB and navigate to the extracted project folder.
+4. Run the scripts (such as `import_scheme` or `export_scheme`) from within that directory to use the project's features.
 
 ## Features
 1. **Import custom color schemes** from JSON files stored under the [schemes folder](./schemes/) (e.g., the Cobalt scheme):
@@ -15,7 +24,10 @@ export_scheme('exampleCustomColors.json');
 ```
 3. **Reset color settings** by importing the default color schemes [schemes/matlab-light.json](./schemes/matlab-light.json) and [schemes/matlab-dark.json](./schemes/matlab-dark.json).
 
-The project works by customizing colors on top of the existing MATLAB Themes (either Light or Dark).
+4. **Validate custom scheme files**:
+```matlab
+validateJsonFile('pathtofile/customScheme.json');
+```
 
 ## Scheme File Structure
 
