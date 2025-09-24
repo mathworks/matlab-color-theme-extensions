@@ -8,26 +8,44 @@ The project works by customizing colors on top of the existing MATLAB Themes (ei
 
 ## Get Started
 
+Use MATLAB Add-Ons Explorer and download the project, or follow these steps:
 1. Download the project from MATLAB File Exchange or GitHub.
 2. Extract the zip file to any directory on your system.
 3. Open MATLAB and navigate to the extracted project folder.
-4. Run the scripts (such as `import_scheme` or `export_scheme`) from within that directory to use the project's features.
+
+Run project scripts (such as `import_scheme` or `export_scheme`) from within project directory.
 
 ## Features
-1. **Import custom color schemes** from JSON files stored under the [schemes folder](./schemes/) (e.g., the Cobalt scheme):
-```matlab
-import_scheme('schemes/cobalt.json');
-```
-2. **Export your current color settings** (including with the MATLAB Theme) to a JSON file:
-```matlab
-export_scheme('exampleCustomColors.json');
-```
-3. **Reset color settings** by importing the default color schemes [schemes/matlab-light.json](./schemes/matlab-light.json) and [schemes/matlab-dark.json](./schemes/matlab-dark.json).
+- **Import a standard color scheme**
+  - To import a color scheme JSON file, run `import_scheme.p`
+  - A file chooser will appear; try any standard scheme from the [schemes folder](./schemes/) folder.
+  - Or, use the command:
+    ```matlab
+    import_scheme('schemes/cobalt.json');
+    ```
 
-4. **Validate custom scheme files**:
-```matlab
-validateJsonFile('pathtofile/customScheme.json');
-```
+- **Create custom schemes**
+  - To create a custom color scheme, use [template.json](./template.json) as a reference. The `"DesktopTheme"` field is required in the JSON file; it determines the base theme (Light/Dark) before applying further color customizations.
+  - To validate the structure of this custom color scheme JSON file, run `validateJsonFile.p`:
+    ```matlab
+    validationJsonFile('updatedColorScheme.json')
+    ```
+
+- **Export Current Color Settings**
+  - To export current color personalizations to a JSON file, run `export_scheme.p`.
+  - A file chooser will prompt to select a save location and name.
+  - Or, use the command:
+    ```matlab
+    export_scheme('myCustomScheme.json');
+    ```
+  - It should export customization for the current MATLAB Theme.
+
+- **Reset customizations**
+  - To reset color settings to their default values, run:
+    ```matlab
+    import_scheme('schemes/matlab-dark.json');
+    import_scheme('schemes/matlab-light.json');
+    ```
 
 ## Scheme File Structure
 
